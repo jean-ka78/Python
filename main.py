@@ -59,5 +59,5 @@ flying_test(peggy)
 flying_test(blu)
 # import socket
 # from pyModbusTCP.client import ModbusClient
-t = rd.randrange(-5.00, 5.00)
+t = rd.randrange(-50.00, 15.00)
 print('Number: ', t)

@@ -46,3 +46,9 @@ flying_test(blu)
 # from pyModbusTCP.client import ModbusClient
 t = rd.randrange(-50.00, 15.00)
 print('Number: ', t)
+while True:
+  local = time.localtime()
+  result = time.strftime("%H:%M:%S ", local)
+  print("Local current time:", result)
+  time.sleep(1)
+
